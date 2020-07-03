@@ -13,8 +13,8 @@ spec:
         app: angular 
     spec: 
       containers: 
-      - name: angular 
-        image: houssemdocker/angular-app:#{Build.BuildId}#
+      - name: angular
+        image: khatestacr1.azurecr.io/ktmdangularappkubernetes:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
